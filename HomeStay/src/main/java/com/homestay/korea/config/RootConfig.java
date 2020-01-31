@@ -26,9 +26,9 @@ public class RootConfig {
 	public DataSource dataSource() {
 		DataSource ds=new DataSource();
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://itbuddy.iptime.org:8233/capstone?autoReconnect=true"); 
-		ds.setUsername("capstone"); 
-		ds.setPassword("capstone1234"); 
+		ds.setUrl("jdbc:mysql://IP:PORT/DB_NAME?autoReconnect=true"); 
+		ds.setUsername("ID"); 
+		ds.setPassword("PASSWORD"); 
 //		ds.setInitialSize(2);
 //		ds.setMaxActive(10);
 //		ds.setTestWhileIdle(true);
